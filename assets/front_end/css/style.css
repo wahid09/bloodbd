@@ -1,0 +1,387 @@
+/*====================================
+         Index of CSS
+         1. Basic OR font page CSS
+         2.
+======================================*/
+
+
+
+.floatleft { float: left }
+.floatright { float: right }
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+.search-area{
+  margin-top: 70px;
+}
+a:focus { outline: 0px solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color:red;
+}
+.p_text{
+  padding: 5px;
+  font-size: 15px;
+}
+html,
+body { height: auto; }
+body { font-family: 'Cabin', sans-serif; }
+.section-padding { padding: 60px 0 }
+.section-gray { background-color: #F7F7F7 }
+.section-dark {
+    background-color: #110C09;
+    color: #fff;
+}
+a { transition: .3s }
+a:hover { color: #000 }
+
+
+@font-face {
+    font-family: 'manustrialmanustrial';
+    src: url('fonts/mns_trial-webfont.eot');
+    src: url('fonts/mns_trial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mns_trial-webfont.woff2') format('woff2'),
+         url('fonts/mns_trial-webfont.woff') format('woff'),
+         url('fonts/mns_trial-webfont.ttf') format('truetype'),
+         url('fonts/mns_trial-webfont.svg#manustrialmanustrial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.section_heading {display:none;}
+/* ============================================
+
+1. Base CSS
+===============================================*/
+html,
+body { height: 100% }
+body { font-family: 'Cabin', sans-serif; }
+.section-padding { padding: 60px 0 }
+.section-gray { background-color: #F7F7F7 }
+.section-dark {
+    background-color: #110C09;
+    color: #fff;
+}
+a { transition: .3s }
+a:hover { color: #000 }
+
+
+@font-face {
+    font-family: 'manustrialmanustrial';
+    src: url('fonts/mns_trial-webfont.eot');
+    src: url('fonts/mns_trial-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/mns_trial-webfont.woff2') format('woff2'),
+         url('fonts/mns_trial-webfont.woff') format('woff'),
+         url('fonts/mns_trial-webfont.ttf') format('truetype'),
+         url('fonts/mns_trial-webfont.svg#manustrialmanustrial') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*=======================================================
+        Header area is here
+ ======================================================*/
+.header{
+      padding-top: 0px;
+      border-top: 1px solid #B5040C;
+      height:110px;
+    }
+    .header_logo{
+      height:100px; 
+      width:100px; 
+      margin:0px
+    }
+    .header_banner{
+      height:105px; 
+      width:100%;
+    }
+ .header_right ul.top_link {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.header_right ul.top_link li {
+  float:left;
+}
+.header_right ul.top_link li a {
+  color: black;
+display: block;
+font-size: 12px;
+font-weight: 500;
+padding: 0 10px;
+text-transform: uppercase;
+}
+.header_right ul.top_link li a:hover {
+  text-decoration:none;
+  color:white;
+}
+.header_right i {
+  font-size: 17px;
+  margin-right: 7px;
+}
+
+/*=====================================================
+           Navigation area is here
+=======================================================*/
+.nav navbar-nav ul{
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+ul.nav navbar-nav li{
+  border-right: 5px solid white;
+}
+li{
+  border-right: 2px solid white;
+}
+li a{
+display: block;
+font-size: 15px;
+font-weight: 500;
+padding: 0 10px;
+text-transform: uppercase;
+}
+li a:hover{
+  background-color: black;
+}
+.navbar{
+      background-color: #B5040C;
+      color: #050505;
+      border: 0px;
+    }
+
+  /*=====================================================
+       Carousel Slider is here
+  ======================================================*/
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+      max-height: 400px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+/*========================================================
+                          Alart Block Start
+=========================================================*/
+  .allart_message{
+      border-top: 5px solid  #a11708;
+      border-bottom: 5px solid  #a11708;
+      max-height: 80px;
+      overflow: hidden;
+    }
+    .alert{
+      margin-top: 5px;
+      margin-bottom: 5px;
+      max-height: 80px;
+    }
+    .allert_box{
+      max-height: 80px;
+      background-color: #f2f3f4;
+    }
+    .p_text_p{
+      color: red;
+      overflow: scroll;
+    }
+
+    /*=======================================
+       message area
+    =============================================*/
+    .main_message_area{
+      margin-top: 10px;
+      height: 300px;
+    }
+    .main_mesg{
+      background-color:  #f2f3f4;
+      /*border: 1px solid  #151111 ;*/
+    }
+    .donating_blood{
+      height: 300px;
+    }
+    .mes_title{
+      margin-top: 5px;
+      padding: 5px;
+      margin-right: 0px;
+      padding-right: 0px;
+      max-height: 50px;
+      overflow: hidden;
+    }
+    .t_text{
+      color:  #607aa7;
+    }
+    .b_text{
+      color: #0d0e0f;
+      font-size: 15px;
+      word-spacing: 5px; 
+    }
+    .mes_body{
+      margin-top: 5px;
+      padding: 5px;
+      margin-right: 0px;
+      padding-right: 0px;
+      max-height: 200px;
+      overflow: hidden;
+    }
+    .mes_ancor{
+      margin-top: 5px;
+      padding: 5px;
+      margin-right: 0px;
+      padding-right: 0px;
+      max-height: 30px;
+      overflow: hidden;
+      margin-bottom: 5px;
+      /*margin-top: 110px;*/
+    }
+    a.mes_link{
+      color:  #607aa7;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    a.mes_link:hover{
+      text-decoration: none;
+      color:  #0d0e0f;
+    }
+    .donating_img{
+      height: 300px;
+    }
+    .d_image{
+      height: 250px;
+      width: 90%;
+      padding-top: 10px;
+      padding-right: 10px;
+    }
+
+    /*=========================================
+               Blog page 
+    =========================================*/
+    .blog_content{
+      border: 1px solid  #49231b;
+      margin-top: 10px;
+      max-height: 50px;
+      background-color: #fcfaf9;
+      text-align: center;
+    }
+    .blog_info{
+      padding-left: 30px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color: black;
+      font-size: 15px;
+    }
+    a#red_more{
+      color: red;
+      padding-left: 5px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    a#red_more:hover{
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    /*============================================
+      Media and Urgent area is here
+    ==============================================*/
+    .m_and_u{
+      margin-top: 10px;
+      /*border-top: 2px solid #900C3F;*/
+      padding-top: 10px;
+      /*border-bottom: 2px solid #900C3F;*/
+      padding-bottom: 10px;
+      height: auto;
+    }
+
+    .urgent_message{
+      background-color: #f2f3f4;
+      height: 300px;
+    }
+    .media_info{
+      background-color: #f2f3f4;
+      height: auto;
+    }
+    .i_vedio{
+      height: auto;
+      width: 60%;
+    }
+    #u_title_text{
+      padding: 5px;
+      color: black;
+    }
+    .Platelet_area{
+      background-color: #f2f3f4;
+      height: auto;
+    }
+    .platelet_body{
+      height: auto;
+      overflow: hidden;
+    }
+
+    /*=============================================
+                 Big footer
+    ==================================================*/
+
+    footer {
+      background-color: #ecc2b9;
+    }
+    .entire_footer_area{
+      margin-top: 5px;
+    }
+     .single_widget{
+      padding-top: 20px;
+     }
+
+
+     .footer_bottom_area{
+      background-color: black;
+     }
+     .f_text{
+      padding-top: 5px;
+      color: white;
+     }
+    ul.bottomnav{
+      list-style-type: none;
+      margin-left: 0px;
+      padding-left: 0px;
+      overflow: hidden;
+     }
+     ul.bottomnav li{
+      line-height: 25px;
+     }
+     ul.bottomnav li a{
+      color: black;
+      text-decoration: none;
+      transition: .3s;
+      text-transform: capitalize;
+      font-size: 15px;
+     }
+     ul.bottomnav li a:hover{
+      background-color: #ecc2b9;
+      cursor: pointer;
+     }
